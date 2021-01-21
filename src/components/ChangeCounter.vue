@@ -6,7 +6,7 @@
 export default {
     methods:{
         addOne(){
-            this.$store.dispatch('increase', {value: 2});
+            this.$store.dispatch('numbers/increase', {value: 2});
         }
     }
 }
